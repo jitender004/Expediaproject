@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/629044acfa.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="trip.css"> -->
+    <link rel="stylesheet" href="header.css" />
+    <title>
+     Hotel|Expedia Travel: Vacations, Cheap Flights, Airline Tickets &
+      Airfares
+    </title>
+    <link rel="icon" type="image/png" href="images/download (1).png" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="logo">
+          <a href="index.html"
+            ><img height="70%" width="80%" src="images/logo.jpg" alt="logo"
+          /></a>
+        </div>
+        <div class="more">
+          <button class="open-button" onclick="openForm()">
+            More travel <i class="fas fa-angle-down"></i>
+          </button>
+        </div>
+        <div class="form-popup" id="myForm">
+          <ul class="form-container">
+            <li>
+              <a href="#"><i class="fas fa-hotel"></i> Stays</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-plane-departure"></i> Flights</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-car"></i>Cars</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-archive"></i> Packages</a>
+            </li>
+            <li><a href="#">Holiday activities</a></li>
+            <li><a href="#">Deals</a></li>
+            <li><a href="#">Groups & meetings</a></li>
+            <li><a href="#">Mobile</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="right">
+        <div><i id="fas" class="fas fa-globe"></i> English</div>
+        <div>Support</div>
+        <div>Trips</div>
+        <div>Sign in</div>
+      </div>
+    </div>
+   <div class="stayscontainer">
+       <h2>Search stays</h2>
+       <div class="forms">
+        <form action="">
+            <input type="text" name="" id="text" placeholder="Going to">
+            <input placeholder="Check-in 4feb" type="text" onfocus="(this.type = 'date')"  id="date">
+            <input placeholder="Check-out 5feb" type="text" onfocus="(this.type = 'date')"  id="date">
+            <select name="" id="select">
+                <option value="1Room 2traveller"><i class="fas fa-user"></i>1Room, 2 travellers</option>
+                <option value="1Room 2traveller">1Room, 2 travellers</option>
+                <option value="1Room 2traveller">1Room,2 travellers</option>
+                
+            </select>
+            
+        </form>
+        <a id="btnstays" href=""><button>Search</button></a>
+
+        <div class="ideas-stays">
+            <h2>Ideas for your next trip</h2>
+            <div class="ideas-flex">
+               <div class="left-ideas">
+
+               </div>
+               <div class="right-ideas">
+                   <div></div>
+                   <div></div>
+               </div>
+            </div>
+        </div>
+   </div>
+  </body>
+  </html>

@@ -1,0 +1,148 @@
+.container {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid rgb(224, 221, 221);
+    justify-content: space-between;
+  }
+  .left {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  .logo {
+    width: 170px;
+    height: 40px;
+    margin: auto;
+    margin-top: 23px;
+    margin-right: 30px;
+    cursor: pointer;
+    
+  }
+  
+  .more {
+    margin: auto;
+    margin-left: -35px;
+    color: #343b53;
+  }
+  .more > button {
+    border: none;
+    background: none;
+    font-size: 15px;
+  }
+  .more > button > i {
+    text-decoration: none;
+    color: #343b53;
+    margin-left:10px ;
+    top: 200px;
+  
+  }
+  .more > button > a > i {
+    margin-left: 5px;
+  }
+  .right {
+    /* border: 1px solid green; */
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    padding: 32px;
+    color: #343b53;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .right>div>a{
+      text-decoration: none;
+      color: #343b53;
+  }
+  .right>div>a:hover{
+      color: rgb(0, 0, 224);
+  }
+  .right > div:hover {
+    color: rgb(0, 0, 224);
+  }
+  .open-button {
+    border: none;
+    cursor: pointer;
+    /* padding-right: 20px; */
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    position: fixed;
+    left: 250px;
+    top: 80px;
+    right: 15px;
+    /* border: 3px solid #f1f1f1; */
+    /* z-index: 1; */
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 400px;
+    height: 300px;
+    padding: 15px;
+    /* z-index: -1; */
+    /* border: 1px solid red; */
+    background-color: white;
+    border-radius: 10px;
+  }
+  .form-container > li {
+    list-style: none;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    
+  }
+  .form-container > li > a {
+    text-decoration: none;
+    /* color: rgb(168, 168, 168); */
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #343b53;
+  }
+  .form-container > li > a > i {
+    /* padding-left: 10px; */
+    margin-right: 10px;
+  }
+  .form-container > li > a:hover {
+    /* background-color: grey; */
+    padding: 10px;
+    /* color: black; */
+    width: 100%;
+  }
+    
+
+  /* stays css */
+
+  .stayscontainer>h2{
+  padding-left: 35px;
+  padding-bottom: -30px;
+  margin-bottom: -5px;
+  margin-top: 2rem;
+  letter-spacing: 1px;
+  /* line-height: -5px; */
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  #btnstays>button{
+    padding: 20px;
+    margin-top: 15px;
+    background-color: blue;
+    border: none;
+    fonsize: 18px;
+    border-radius: 10px;
+    color: white;
+    width: 17%;
+  }
+  /* ideas div */
+
+  .ideas-stays{
+    height: 300px;
+    /* width: 90%; */
+    margin: auto;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+  }  

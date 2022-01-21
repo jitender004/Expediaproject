@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/629044acfa.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>create account</title>
+    <link rel="icon" type="image/png" href="images/download (1).png" />
+    <link rel="stylesheet" href="siginandsignup.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <!-- <button id="home"><i class="fas fa-arrow-left"></i></button> -->
+    <div class="sign-container"> 
+      <div class="logo">
+        <a href="index.html"
+          ><img height="100%" width="100%" src="images/logo.jpg" alt="logo"
+        /></a>
+      </div>
+    </div>
+    <hr />
+    <div class="form-signin">
+      <form action="#" class="form">
+        <h1>Create an account</h1>
+        <input type="email" id="email" placeholder="Email address" />
+        <input type="text" id="fname" placeholder="First Name" />
+        <input type="text" id="sname" placeholder="Surname" />
+        <input type="password" id="password" placeholder="Password" />
+        <p id="valid" style="color:red"></p>
+        <input type="checkbox" name="" id="" checked />I'd like to receive travel deals, special offers and other information from Expedia via email.
+        <p>
+            By creating an account, I agree to the Expedia 
+          <a href="#">Terms and Conditions, Privacy Statement </a> and
+          <a href="#">Expedia Rewards Terms and Conditions.</a>
+        </p>
+        <input type="submit" id="sub" value="Continue" class="btn" />
+        <div class="middle-sigin">
+          <p><a href="#">Forgot password?</a></p>
+          <p>Already have an account? <a href="signIn.html ">Sign in</a></p>
+          <p>or continue with</p>
+        </div>
+        <div class="icon-form">
+            <a href="#"><i class="fab fa-apple"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-google"></i></i></a>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script>
+    document.querySelector("#sub").addEventListener('click',storeData);
+  var arr=JSON.parse(localStorage.getItem("listarr")) || [];
+  function storeData(event){
+      var email =document.querySelector("#email").value;
+      var fname =document.querySelector("#fname").value;
+      var sname =document.querySelector("#sname").value;
+      var pass =document.querySelector("#password").value;
+      console.log(email,fname,sname,pass);
+      if(email==""){
+          document.getElementById("valid").innerHTML="** Please Fill Email first";
+      }
+      else if(fname==""){
+          document.getElementById("valid").innerHTML="** Please Enter Your Name";
+      }
+      else if(sname==""){
+          document.getElementById("valid").innerHTML="** Enter Surname";
+      }
+      else if(pass==""){
+          document.getElementById("valid").innerHTML="** Please Fill strong password";
+      }
+      else{
+          window.location.href="signIn.html";
+      }
+      var relObj={
+        itememail:email,
+        itemfname:fname,
+        itemsname:sname,
+        itempass:password,
+
+    }
+    // console.log(relObj)
+    arr.push(relObj);
+    // console.log(arr);
+    localStorage.setItem("listarr",JSON.stringify(arr));
+  
+    }
+  </script>
+</html>

@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.sign-container {
+  margin: auto;
+}
+/* .sign-container>button{
+    border: none;
+    background-color: white;
+    /* padding: 10px; */
+    /* margin-top: 20px;
+} */
+.logo {
+  height: 35px;
+  width: 150px;
+  text-align: center;
+  margin: auto;
+}
+.form-signin {
+  /* display: block; */
+  width: 32%;
+  /* border: 1px solid red; */
+  margin: auto;
+  box-sizing: border-box;
+  padding: 20px;
+  
+}
+input[type="email"],
+input[type="password"],input[type='text'] {
+  width: 100%;
+  padding:15px 12px;
+  border: 1px solid rgb(39, 38, 38);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+} 
+p{
+    font-size: 13px;
+    margin-top: 20px;
+    color: rgb(160, 142, 142);
+}
+p>a{
+    text-decoration: none;
+    color: blue;
+}
+.btn{
+    padding: 20px;
+    width: 100%;
+    border: none;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.middle-sigin{
+    text-align: center;
+    font-size: 14px;
+}
+.icon-form{
+    text-align: center;
+   
+    padding-top: 10px;
+}
+.icon-form>a{
+    color: black;
+    margin-right: 12px;
+    
+}

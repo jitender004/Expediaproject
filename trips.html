@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/629044acfa.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="trip.css">
+    <link rel="stylesheet" href="header.css" />
+    <title>
+      Sign in |Expedia Travel: Vacations, Cheap Flights, Airline Tickets &
+      Airfares
+    </title>
+    <link rel="icon" type="image/png" href="images/download (1).png" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="logo">
+          <a href="index.html"
+            ><img height="70%" width="80%" src="images/logo.jpg" alt="logo"
+          /></a>
+        </div>
+        <div class="more">
+          <button class="open-button" onclick="openForm()">
+            More travel <i class="fas fa-angle-down"></i>
+          </button>
+        </div>
+        <div class="form-popup" id="myForm">
+          <ul class="form-container">
+            <li>
+              <a href="#"><i class="fas fa-hotel"></i> Stays</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-plane-departure"></i> Flights</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-car"></i>Cars</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-archive"></i> Packages</a>
+            </li>
+            <li><a href="#">Holiday activities</a></li>
+            <li><a href="#">Deals</a></li>
+            <li><a href="#">Groups & meetings</a></li>
+            <li><a href="#">Mobile</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="right">
+        <div><i id="fas" class="fas fa-globe"></i> English</div>
+        <div>Support</div>
+        <div>Trips</div>
+        <div>Sign in</div>
+      </div>
+    </div>
+    <div class="container-trip">
+         <h2>Trips</h2>
+         <div class="image-container">
+             <img height="100%" width="100%" src="images/trip.jpg" alt="">
+         </div>
+         <button id="button"><a href="signIn.html"> Sign in or create free account</a></button>
+    </div>
+    <div class="booking">
+        <a href="https://www.expedia.co.in/user/finditin"><img width="100%" height="100%" src="images/circleright1.png" alt=""></a>
+        <h4>Want to see a booking without signing in?</h4>
+        <p>Use an ititnerary number to access it</p>
+      
+    </div>
+    <div class="final-div">
+        <div class="left1">
+            <img height="100%" width="100%" src="images/expedia_marquee_refresh.jpg" alt="">
+        </div>
+        <div class="center">
+            <div class="contentdiv">
+                <h1>Plan your trip in a snap on the app</h1>
+                <p>From home or hammock, organise your entire escape and explore app offers</p>
+            </div>
+            <div class="formdiv">
+                <h3>Text yourself a download link</h3>
+                <select id="countryCode" name="countryCode" class="uitk-field-select">
+                    <option value="+91,India">India +91</option>
+                    <option value="+93,Afghanistan">Afghanistan +93</option>
+                    <option value="+355,Albania">Albania +355</option>
+                    <option value="+213,Algeria">Algeria +213</option>
+                    <option value="+1,American_Samoa">American Samoa +1</option>
+                    <option value="+376,Andorra">Andorra +376</option><option value="+244,Angola">Angola +244</option><option value="+1,Anguilla">Anguilla +1</option><option value="+672,Antarctica">Antarctica +672</option><option value="+1,Antigua_and_Barbuda">Antigua and Barbuda +1</option><option value="+54,Argentina">Argentina +54</option><option value="+374,Armenia">Armenia +374</option><option value="+297,Aruba">Aruba +297</option><option value="+61,Australia">Australia +61</option><option value="+43,Austria">Austria +43</option><option value="+994,Azerbaijan">Azerbaijan +994</option><option value="+1,Bahamas">Bahamas +1</option><option value="+973,Bahrain">Bahrain +973</option><option value="+880,Bangladesh">Bangladesh +880</option><option value="+1,Barbados">Barbados +1</option><option value="+375,Belarus">Belarus +375</option><option value="+32,Belgium">Belgium +32</option><option value="+501,Belize">Belize +501</option><option value="+229,Benin">Benin +229</option><option value="+1,Bermuda">Bermuda +1</option><option value="+975,Bhutan">Bhutan +975</option><option value="+591,Bolivia">Bolivia +591</option><option value="+387,Bosnia_and_Herzegovina">Bosnia and Herzegovina +387</option><option value="+267,Botswana">Botswana +267</option><option value="+55,Brazil">Brazil +55</option><option value="+1,British_Virgin_Islands">British Virgin Islands +1</option><option value="+673,Brunei">Brunei +673</option><option value="+359,Bulgaria">Bulgaria +359</option><option value="+226,Burkina_Faso">Burkina Faso +226</option><option value="+257,Burundi">Burundi +257</option><option value="+855,Cambodia">Cambodia +855</option><option value="+237,Cameroon">Cameroon +237</option><option value="+1,Canada">Canada +1</option><option value="+238,Cape_Verde">Cape Verde +238</option>
+                <input type="number" placeholder="Phone number">
+                <button>Get the app</button>
+            </div>
+            <p>By providing your number, you agree to receive a one-time automated text message with a link to get the app. Standard text message rates may apply.</p>
+        </div>
+        <div class="right1  ">
+               <img height="80%" width="100%" src="images/QR_FOOTER.jpg" alt="">
+               <p>Scan the QR Code</p>
+        </div>
+    </div>
+
+    <!-- footer-section -->
+    <!-- <div class="upperfotter">
+        <h4>Explore a world of travel with Expedia</h4>
+        <p><a href="#">Discover new places and experiences</a></p>
+    </div> -->
+   <div class="footer">
+       <div class="footer-img">
+           <img width="100%" height="100%" src="images/footerlogo.jpg" alt="">
+       </div>
+       <div class="company">
+           <h4>Company</h4>
+           <a href="#">About Us</a>
+           <a href="#">Jobs</a>
+           <a href="#">List you property</a>
+           <a href="#">Partnership</a>
+       </div>
+       <div class="explore">
+        <h4>Explore</h4>
+        <a href="#">India travel guide</a>
+        <a href="#">Hotels in India</a>
+        <a href="#">Holiday rentals in India</a>
+        <a href="#">Holiday packages in India</a>
+        <a href="#">Domestic flights</a>
+        <a href="#">Car hire in India</a>
+        <a href="#">All accomodation types</a>
+        <a href="#">Travel blog</a>
+       </div>
+       <div class="term-policies">
+           <h4>Terms and Policies</h4>
+           <a href="#">Privcy Statement</a>
+           <a href="#">Terms of use</a>
+       </div>
+       <div class="help">
+       <h4>Help</h4>
+       <a href="#">Support</a>
+       <a href="#">Change or cancel your booking</a>
+       <a href="#">Refund process and timelines</a>
+       <a href="#">Book a flight using an airline credit</a>
+       <a href="#">International travel documents</a>
+       </div>
+   </div>
+   <hr class="hr">
+   <div class="end-footer">
+       <img src="images/secure.png" alt="">
+       <p>© 2021 Expedia, Inc., an Expedia Group company / Expedia Asia Holdings Mauritius / BEX Travel Asia Pte. Ltd. All rights reserved. Expedia and the Airplane Logo are trademarks or registered trademarks of Expedia, Inc.</p>
+   </div>
+  </body>
+</html>
