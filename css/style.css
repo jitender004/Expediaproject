@@ -142,7 +142,7 @@ input[type='text']:hover{
   margin: auto;
   margin-top: 35px;
   /* border: 1px solid grey; */
-  background-image: url(images/pull\ gallery.jpg);
+  background-image: url(/images/pull\ gallery.jpg);
   background-position: center;
   opacity: 0.9;
   background-repeat: no-repeat;
@@ -192,7 +192,7 @@ input[type='text']:hover{
   margin: auto;
   margin-top: 80px;
   /* border: 1px solid grey; */
-  background-image: url(images/pull-gallery-2.jpg);
+  background-image: url(/images/pull-gallery-2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
